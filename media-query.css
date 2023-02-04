@@ -135,7 +135,7 @@ li a.a-contato {
 }
 .frase-sobre-mim{
     color: white;
-    font-size: clamp(9px,2.5vw,25px);
+    font-size: clamp(11.9px,2.5vw,25px);
     font-family: Arial;
     height: 10vw;
     line-height: 1.40;
