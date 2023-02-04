@@ -1,0 +1,156 @@
+ # Emmet Abbreviation     so usar o !  depos dar enter , ele gera o basssico da estrutura do html
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    
+ </body>
+ </html>
+ 
+ 
+ 
+ 
+ # tags html
+
+    #devem ser usado no começo do código
+    <!DOCTYPE html> # versão de html ussada
+    <html lang="pt-br"># tag estrutural html, deve abrir e fechar (informa a língua usada, no caso "pt-br")   
+    <meta charset="UTF-8"> #caracteres usados em diversas línguas
+    <link rel="stylesheet" href="style.css">     #usado se for usar o CSS de maneira externa 
+
+    #formatação dos textos 
+    <title>cria o título da pagina</title>
+    <h1> cria título na pagina</h1>
+    <h2>cria outro título</h2>
+    <p> cria parágrafos </p>                        #lembrar de colocar tab para melhor visualização durante o código
+    <strong> serve para colocar em negrito </strong>
+    <em> serve para colocar coisas em itálico </em>
+    <ul>lista não ordenada de itens</ul> unordered list
+    <ol>lista ordenada de itens</ol> ordered list
+    <li>para listar itens da lista </li> listed items
+    <header> cria um cabeçalho</header>
+    <a href="style.css">cria um link para outras paginas</a>
+    <nav>organização para notar o menu de navegação</nav>
+    <br> usado para quebra de linha
+    <hr> usada para criar uma linha que separa conteudos
+
+    #imagem
+     <img src="banner.jpg">
+
+    #devem ser usados no final do código
+    </html> #deve abrir o código e fechar             <!--usada para comentar algo-->
+
+    #estruturas dentro do código p {                                       
+        text-align: center
+    } p {                                       
+        text-align: center
+    }
+    <head>usado para passar as informações para o navegador</head>
+    <body>usada para mostar o conteúdo</body>(textos)
+    <div>usada para criar divisões</div>
+    <span>usadaa para criar outra divisão</span>
+    <b>usada para criar outra divisão</b>
+    <i>usada para criar outra divisão</i>
+    <main>usada para criar uma divisão principal</main>
+    <nav>usada para criar divisão para navegadores</nav>
+    <header>usada para criar divisão para  </header>
+    <footer>usada para criar rodapé</footer>
+    <section>usada para criar uma seção dentro do artigo</section>
+    <aside> Representa uma seção que faz referência a outro conteúdo da página</aside>
+    <article> usada paara criar um artigo</article>
+    <audio>usada para inserir audio </audio>
+    <form> usa para criar formulários<form>
+    <label> usado junto com o input para caracterizar o "input"<label>
+    <input> usada para o  usuario inserir informações diversas ,usado para formularios frequentemente<input>
+        tipos de input type="radio""text""submit""checkbox""email""tel"
+    <textarea> usado para faer uma área de comentarios <textarea>
+    <select> usada para criar uma lista com opções de itens <select>
+    <option> opção da lista <option>
+
+
+
+#CSS-folha de estilo em cascata        por meio da tag     
+
+                obs:se tiver mais de uma mudança do estilo separar eles com ";"
+                ex: style="font-size: 20px; text-align: center"
+
+    #inline (deve se adcionar o style="" dentro da tag deesejada)
+
+    style=""                                          
+        font-size: Xpx        #muda o tamanho da fonte  
+        text-align: center    #alinha o texto no centro
+        font-family: Arial    #define tipo de fonte
+        font-style: italic    #define estilo de letra 
+        word-spacing: 5px     # determina o espaçamento entre palavras
+        letter-spacing: 2px   #define o espaçamento das letras
+        text-decoration: underline  #decora os textos 
+        color: #FF0000        #muda as cores 
+        line-height: 1.5em; (1.5 vezes o tamanho da fonte) #muda a altura de cada linha, ou entrelinha
+        font-weight: bold     # muda o peso da fonte. Valores incluem bold e normal
+        text-indent: 2em; (indentação de 2 vezes o tamanho da fonte na primeira linha do texto)  #muda a indentação da primeira linha de um bloco de texto
+        text-transform: uppercase  #muda a "caixa" do texto. Valores incluem uppercase (caixa-alta), lowercase (caixa-baixa) e capitalize (primeira letra maíuscula e o restante minúsculas)
+        display:inline-block
+        text-decoration: none           #usado para tirar o sublinhado dos links
+    #elementos na web 
+        height:10px
+        width:10px our x%
+        border:10px solid #000000
+        padding:20px
+        padding-top:20px
+        margin-left our margin-right our just margin:20px
+        background: black      #muda a cor do fundo da página
+        vertical-align
+        box-sizing: border-box;    #usado para posicionar od elementos de forma correta (px + %)
+        position:absolute, relative , static
+        border-color: #cor da borda
+        border-style: solid ,dashed, dotted
+        border-ratius: 10 px # aredonda a borda 
+
+
+        interação com a página 
+
+        :hover # quando o cursor está em cima do item
+        :active #quando você clica em algo 
+
+
+        https://guilhermemuller.com.br/exemplos/html-css-na-pratica/3/props-1   # ótimos exemplos
+    #internal
+
+    <style>
+        'tag'{
+              text-align: center           #pode ser qualque outro comando , foi somente um exemplo
+           }
+    </style>
+
+    #external
+    #deve se criar outro arquivo de código e linkar ele no código principal usando 
+                                                                             <link rel="stylesheet" href="style.css">  
+                                                                        e depois utilizar:
+                                                                        'tag'{
+                                                                              text-align: center          
+                                                                           }
+
+
+#arrumando o código de html e css
+
+id="secret"  (html)
+ para buscar isso no css deve se usar #secret
+ class="topsecret"
+ para buscar isso no  css deve se usar .topsecret
+
+
+
+ unicode 
+
+
+ unicode table site para encontar simbolos diversos 
+  overflow-x: hidden !important; #para resolver o problema de rolagem
+
+
+  

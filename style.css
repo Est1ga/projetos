@@ -1,0 +1,336 @@
+body{
+    background: linear-gradient(181deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
+    
+    Height: 853px;
+    width: 100%;
+    overflow-x: hidden !important;
+
+}
+aside{
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 237px;
+}
+.nave{
+    align-items: center;
+    color: #22D4FD;
+}
+header{
+    height: 140px;
+}
+nav{
+    margin-top: 40px;
+    margin-left: 8.5%;
+    margin-bottom: 20px;
+}
+nav li{
+    display: inline;
+    margin-left: 2vw;
+ 
+}
+nav a{
+    text-decoration: none;
+    color: #22D4FD;
+    font-family:Helvetica;
+    font-style: normal;
+    font-weight: bold;
+
+    font-size: clamp(12px,1.3vw,17px);
+
+}
+nav a:hover{
+
+    text-decoration: overline;
+}
+nav a:active{
+    color: white;
+    
+}
+header{
+    height: 110px;
+    width: 343px;
+    margin-left: 17.2%;
+}
+.img-menu{
+    width: 57px;
+    margin-right: 17px;
+    margin-top: 12px;
+}
+.div-menu-icon{
+
+}
+.nave-menu a{
+    text-decoration: none;
+    color: rgb(181, 192, 207);
+    font-size: 20px;
+}
+.div-ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 165px;
+    align-items: center;
+    line-height: 64px;
+    background-color: #030d1c;
+}
+
+main{
+    color: white;
+
+}
+.frase{
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(27px,2.6vw,40px);
+    margin-left: 17.2%;
+    color: white;
+    line-height: 38px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+b{
+    font-weight: bold;
+    color:#22D4FD;
+}
+.frase2{
+    font-size: clamp(13px,1.2vw,17px);
+    display: inline-block;
+    margin-left: 17.2%;
+    font-family: Helvetica;
+    text-align: justify;
+    margin-top: 30px;
+    word-spacing: 3px;
+    line-height: 20px;
+    width: 100%;
+
+}
+.fotohome{
+    position: absolute;
+    top: 171px;
+    left: 60vw;
+    width: 310px;
+    height: auto;
+    padding-left: 5px;
+}
+.acesso-rede{
+    margin-top: 65px;
+    margin-left: 17.2%;
+    font-size: 22px;
+    padding-left: 77px;
+}
+.contatos{
+    margin-top: 40px;
+    margin-left: 17.2%;
+    padding-left: 45px;
+}    
+.borda-acesso{
+margin-bottom: 18px;
+border: 1.8px solid #22D4FD;
+width: 280px;
+text-align: center;
+border-radius: 9px;
+height: 41px;
+display:block;
+}
+.borda-acesso:active{
+    border: 1.8px solid green;
+}
+
+.img-contato{
+    margin-right: 10px;
+    margin-left: 8px;
+}
+.img-contato1{
+    margin-right: 15px;
+    height: 40px;
+    margin-bottom: -15px;
+    margin-top: -9px;
+    margin-left: -14px;
+
+
+
+}
+.img-contato2{
+    margin-bottom: -7px;
+    height: 25px;
+    margin-top: -2px;
+    margin-right: 14px;
+    padding-left: 13px;
+}
+.img-contato3{
+    height: 31px;
+    margin-top: -4px;
+    margin-bottom: -10px;
+    padding-right: 16px;
+    padding-left: 15px;
+}
+ li a.a-contato{
+    text-decoration: none;
+    color:#22D4FD;
+    font-family:Helvetica;
+    display: block;
+    padding-top: 8px;
+    height: 32px;
+
+
+
+
+}
+.a-contato:hover{
+    color: white;
+}
+
+
+.a-contato1{
+margin-right: 10px;
+    text-decoration: none;
+    color: #22D4FD;
+    font-family: Helvetica;
+    display: block;
+    height: 32px;
+    padding-top: 8px;
+}
+.a-contato1:hover{
+    color: white;
+}
+.a-contato1:active{
+    color: white;
+}
+footer{
+    
+    width: 100%;
+    height: 130px;
+    margin-top: 73px;
+}
+.rodapé{
+    color: white;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+}
+.nome-sobre-mim{
+    color: #22D4FD;
+    margin-left: 8%;
+    margin-top: 27px;
+    height: 26px;
+    width: 600px;
+    font-weight: 400;
+    font-size: clamp(9px,3.2vw,38px);
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding-left: 42vw;
+}
+
+.edu-title{
+    color: #22D4FD;
+    margin-top: -4vw;
+    margin-bottom: -3.3vw;
+    margin-left: 20%;
+    font-weight: 400;
+    font-size: clamp(9px,2vw,30px);
+    line-height: 1vw;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding-left: 10px;
+}
+
+.frase-sobre-mim{
+    color: white;
+    margin-left: 20%;
+    margin-top: 1vw;
+    width: 88vw;
+    font-size: clamp(8px,1.2vw,25px);
+    font-family: Arial;
+    border-top: 2px solid #22D4FD;
+    height: 10vw;
+    padding-top: 3.4vw;
+    line-height: 1.40;
+    padding-left: 0.3vw;
+}
+
+
+
+.educação-sobre-mim{
+    color: white;
+}
+
+.imagem-sobre-mim {
+    width: clamp(15vw,20vw,18vw);
+    position: absolute;
+    left: 24vw;
+    top: 188px;
+    height: auto;
+    border-radius: 50%;
+}
+.introdução{
+    color: white;
+    margin-top: 7vw;
+    margin-left: 8%;
+    width: 36vw;
+    font-weight: 400;
+    font-size: clamp(1px,2.2vw,38px);
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    height: 26vw;
+    padding-left: 42vw;
+}
+
+.intro-color{
+    color: #22D4FD;
+}
+.box{
+    margin-left: 10vw;
+    display: flex;
+    height: 77%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.borda-colorida{
+    height: fit-content;
+    border: 3px solid;
+    border-color: #22D4FD;
+    border-radius: 10px;
+}
+.tit-link{
+    display: flex;
+    width: 300px;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    background-color: #7a62626b;
+}
+.pflex{
+    display: flex;
+}
+.borda-colorida:hover{
+    font-size:larger
+}
+.borda-colorida:active{
+    border-color:green
+}
+.imagem-link{
+    width: 300px;
+}
+.pedido{
+    font-size: 23px;
+    margin-left: 638px;
+    margin-top: 125px;
+    font-family: monospace;
+}
+.gif{
+    border: 2.4px solid #22d4fd;
+    position: absolute;
+    top: 175px;
+    left: 229px;
+    border-radius: 10px;
+    height: 381px;
+
+}

@@ -1,0 +1,103 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0 ;
+    
+
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0%;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+    
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.titulo-principal{
+    padding-left: 20px;
+    font-size: 50px;
+    background-color:white;
+    margin: 80px;
+}
+.borda-img{
+    border: 2px solid #000000;
+    background-color: gray;
+
+}
+#banner {
+    width: 100%;
+}
+.prin{
+    background:#CCCCCC;
+    padding: 30px;
+}
+.titulo-centro {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px ;
+
+}
+p {                                       
+    text-align: center;
+    font-size: 22px;
+}
+#p1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px
+}
+em strong{
+   color: rgb(146, 89, 5) ;
+}
+.ben-list{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+.listagem{
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.ben{
+    background-color: white;
+    padding: 20px;
+}
+.imagemben{
+    width: 50%;
+    border: 2px solid #363434;;
+}
+footer{
+    background : url("bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 20px 0 0 ;
+}

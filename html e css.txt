@@ -1,0 +1,61 @@
+# tags html
+
+    #devem ser usado no começo do código
+    <!DOCTYPE html> # versão de html ussada
+    <html lang="pt-br"># tag estrutural html, deve abrir e fechar (informa a língua usada, no caso "pt-br")   
+    <meta charset="UTF-8"> #caracteres usados em diversas línguas
+    <link rel="stylesheet" href="style.css">     #usado se for usar o CSS de maneira externa 
+
+    #formatação dos textos 
+    <title>cria o título da pagina</title>
+    <h1> cria título na pagina</h1>
+    <p> cria parágrafos </p>                        #lembrar de colocar tab para melhor visualização durante o código
+    <strong> serve para colocar em negrito </strong>
+    <em> serve para colocar coisas em itálico </em>
+
+    #devem ser usados no final do código
+    </html> #deve abrir o código e fechar 
+
+    #estruturas dentro do código
+    <head>usado para passar as informações para o navegador</head>
+    <body>usada para mostar o conteúdo</body>(textos)
+
+#CSS-folha de estilo em cascata        por meio da tag     
+
+                obs:se tiver mais de uma mudança do estilo separar eles com ";"
+                ex: style="font-size: 20px; text-align: center"
+
+    #inline (deve se adcionar o style="" dentro da tag deesejada)
+
+    style=""                                          
+        font-size: Xpx        #muda o tamanho da fonte  
+        text-align: center    #alinha o texto no centro
+        font-family: Arial    #define tipo de fonte
+        font-style: italic    #define estilo de letra 
+        word-spacing: 5px     # determina o espaçamento entre palavras
+        letter-spacing: 2px   #define o espaçamento das letras
+        text-decoration: underline  #decora os textos 
+        color: #FF0000        #muda as cores 
+        line-height: 1.5em; (1.5 vezes o tamanho da fonte) #muda a altura de cada linha, ou entrelinha
+        font-weight: bold     # muda o peso da fonte. Valores incluem bold e normal
+        text-indent: 2em; (indentação de 2 vezes o tamanho da fonte na primeira linha do texto)  #muda a indentação da primeira linha de um bloco de texto
+        text-transform: uppercase  #muda a "caixa" do texto. Valores incluem uppercase (caixa-alta), lowercase (caixa-baixa) e capitalize (primeira letra maíuscula e o restante minúsculas)
+        background: black      #muda a cor do fundo da página
+
+        https://guilhermemuller.com.br/exemplos/html-css-na-pratica/3/props-1   # ótimos exemplos
+
+    #internal
+
+    <style>
+        'tag'{
+              text-align: center           #pode ser qualque outro comando , foi somente um exemplo
+           }
+    </style>
+
+    #external
+    #deve se criar outro arquivo de código e linkar ele no código principal usando 
+                                                                             <link rel="stylesheet" href="style.css">  
+                                                                        e depois utilizar:
+                                                                        'tag'{
+                                                                              text-align: center          
+                                                                           }
