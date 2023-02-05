@@ -118,10 +118,10 @@ li a.a-contato {
 }
 .nome-sobre-mim {
     color: #22D4FD;
-    margin-top: 27px;
+    margin-top: 75px;
     height: 26px;
     font-weight: 400;
-    font-size: clamp(18px,3.2vw,38px);
+    font-size: clamp(18px,5.5vw,38px);
     line-height: 30px;
     letter-spacing: 2px;
     word-spacing: 4px;
@@ -150,21 +150,21 @@ li a.a-contato {
     height: auto;
     border-radius: 50%;
     position: initial;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 .introdução {
     color: white;
     margin-top: 7vw;
     margin-left: 0;
     font-weight: 400;
-    font-size: clamp(10.7px,4vw,38px);
+    font-size: clamp(10.7px,4.5vw,38px);
     letter-spacing: 2px;
     word-spacing: 1px;
     height: 26vw;
     padding-left: 0;
     padding: 0px 47px;
     text-align: center;
-    width: 75vw;
+    width: 80vw;
 }
 .edu-title {
     color: #22D4FD;
