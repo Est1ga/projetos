@@ -146,11 +146,11 @@ li a.a-contato {
     padding-top: initial;
 }
 .imagem-sobre-mim {
-    width: clamp(110px,20vw,300px);
+    width: clamp(140px,20vw,300px);
     height: auto;
     border-radius: 50%;
     position: initial;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 .introdução {
     color: white;
