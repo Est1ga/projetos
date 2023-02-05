@@ -142,7 +142,7 @@ li a.a-contato {
     width: initial;
     margin: initial;
     border: none;
-    padding-left: initial;
+    padding-left: 3vw;
     padding-top: initial;
 }
 .imagem-sobre-mim {
@@ -169,7 +169,7 @@ li a.a-contato {
 .edu-title {
     color: #22D4FD;
     font-weight: 400;
-    font-size: clamp(14px,2vw,30px);
+    font-size: clamp(14px,2.9vw,30px);
     line-height: 1vw;
     letter-spacing: 2px;
     word-spacing: 4px;
