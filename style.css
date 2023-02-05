@@ -290,7 +290,7 @@ footer{
 .box{
     margin-left: 10vw;
     display: flex;
-    height: 77%;
+    height: 70%;
     justify-content: flex-start;
     flex-wrap: nowrap;
 }
