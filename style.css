@@ -298,6 +298,7 @@ footer{
     border: 3px solid;
     border-color: #22D4FD;
     border-radius: 10px;
+    margin-bottom:300px;
 }
 .tit-link{
     display: flex;
