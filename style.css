@@ -334,7 +334,6 @@ footer{
 
 }
 .Frase-Steve,.Frase-Walt,.Frase-Bill{
-
     font-size: clamp(15px,3vw,22px);
     color: whitesmoke;
     display: flex;
