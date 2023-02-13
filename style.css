@@ -204,8 +204,7 @@ footer{
     background-color: #3b3b44;
     width: 100%;
     height: fit-content;
-    border: 2px solid;
-    border-top-color: #22d4fd47;
+    border-top: 2px solid #22d4fd47;
 }
 .rodapé{
     color: white;
