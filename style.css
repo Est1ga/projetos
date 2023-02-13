@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(270deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
-    
+    font-family: Montserrat; 
     Height: auto;
     width: 100%;
     overflow-x: hidden !important;
@@ -34,7 +34,6 @@ nav li{
 nav a{
     text-decoration: none;
     color: #22D4FD;
-    font-family:Helvetica;
     font-style: normal;
     font-weight: bold;
 
@@ -102,7 +101,6 @@ b{
     font-size: clamp(13px,1.2vw,17px);
     display: inline-block;
     margin-left: 17.2%;
-    font-family: Helvetica;
     text-align: justify;
     margin-top: 30px;
     word-spacing: 3px;
@@ -173,7 +171,6 @@ display:block;
  li a.a-contato{
     text-decoration: none;
     color:#22D4FD;
-    font-family:Helvetica;
     display: block;
     padding-top: 8px;
     height: 32px;
@@ -191,7 +188,6 @@ display:block;
 margin-right: 10px;
     text-decoration: none;
     color: #22D4FD;
-    font-family: Helvetica;
     display: block;
     height: 32px;
     padding-top: 8px;
@@ -247,7 +243,6 @@ footer{
     margin-top: 1vw;
     width: 88vw;
     font-size: clamp(8px,1.2vw,25px);
-    font-family: Arial;
     border-top: 2px solid #22D4FD;
     height: 10vw;
     padding-top: 3.4vw;
@@ -324,7 +319,6 @@ footer{
     font-size: 23px;
     margin-left: 638px;
     margin-top: 125px;
-    font-family: monospace;
 }
 .gif{
     border: 2.4px solid #22d4fd;
