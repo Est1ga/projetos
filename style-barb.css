@@ -45,7 +45,7 @@ nav a:hover{
     padding-left: 20px;
     font-size: clamp(30px,5vw,40px);
     background-color:white;
-    margin: 80px;
+    margin: 6vw;
 }
 .borda-img{
     border: 2px solid #000000;
