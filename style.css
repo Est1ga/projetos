@@ -288,16 +288,16 @@ footer{
 .box{
     margin-left: 10vw;
     display: flex;
-    height: 70%;
+    height: fit-content;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    border: 1.8px solid;
+    width: fit-content;
+    border-color: #22D4FD;
+    box-shadow: 12px 13px 20px 0px black
 }
 .borda-colorida{
     height: fit-content;
-    border: 3px solid;
-    border-color: #22D4FD;
-    border-radius: 10px;
-    margin-bottom:341px;
 }
 .tit-link{
     display: flex;
