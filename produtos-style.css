@@ -1,18 +1,24 @@
+body{
+    font-family: Montserrat;
+}
 header{
     background: #BBBBBB;
     padding: 20px 0 ;
+        border-bottom: 2px solid #363434;
+    
     
 
 }
 .caixa{
-    width: 940px;
     position: relative;
-    margin: 0 auto
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0%;
+.logo{
+    width: clamp(70px,12vw,180px);
 }
 nav li{
     display: inline;
@@ -24,7 +30,7 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size:clamp(11px,3vw,22px) ;
     text-decoration: none;
 
     
